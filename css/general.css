@@ -60,6 +60,9 @@ html {
   /* font-size: 10px, percentage = 10 / 16 = 62.5% */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does NOT work on safari, edge */
+  /* scroll-behavior: smooth; */
 }
 
 body {
